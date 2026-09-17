@@ -4,7 +4,7 @@ Official repository for **FRODO**, a framework combining deep reinforcement lear
 
 ---
 
-## 📌 Repository Overview
+## Repository Overview
 
 This repository contains the complete codebase, benchmark suite, simulation data, and pre-trained model checkpoints:
 
@@ -42,14 +42,14 @@ FRODO-V2X/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
 Clone the repository and install requirements:
 
 ```bash
-git clone https://github.com/your-username/FRODO-V2X.git
+git clone https://github.com/dash8890/FRODO-V2X.git
 cd FRODO-V2X
 pip install -r requirements.txt
 ```
@@ -79,17 +79,3 @@ To run the frozen-policy robustness benchmark across environmental parameter var
 ```bash
 python experiments/run_rainbow_repaired_frozen_robustness_table_v1.py
 ```
-
----
-
-## 🔒 Privacy Protection Schemes Summary
-
-- **GMDS (Global Masking Secret Sharing)**: Uses global fixed nullspace masks across servers. Vulnerable under temporal differencing and same-product attacks.
-- **SPC (Server-Specific Fixed Masking)**: Uses static server-specific nullspace masks. Prevents cross-server leakage but vulnerable under temporal differencing.
-- **FRODO (Fresh Random Online Differential Offloading)**: Samples fresh nullspace masks per step/operand, achieving complete temporal linkage defense and chance-level distinguishability under active attacks.
-
----
-
-## 📜 License & Citation
-
-Distributed under the MIT License.
