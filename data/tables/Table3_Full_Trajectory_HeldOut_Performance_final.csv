@@ -1,0 +1,7 @@
+Method,J_test_VPS,Mean_Age_s,T_comp_s
+Factored VPS PPO,0.1300 +/- 0.0003,1.1535,0.6430
+VPS-Greedy,0.1438,1.2009,0.5807
+Age-Completion,0.1568,1.2185,0.5532
+AoI-MADDPG,0.1580 +/- 0.0141,1.2143,0.6322
+Completion-MARL,0.1598 +/- 0.0038,1.2505,0.5939
+Value-Completion,0.2230,1.6941,0.5713

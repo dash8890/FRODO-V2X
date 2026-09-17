@@ -1,0 +1,4 @@
+Metric,Result
+Joint traffic-participant--node actions,50
+Factored traffic-participant actions,10
+Learned action-space reduction,5x

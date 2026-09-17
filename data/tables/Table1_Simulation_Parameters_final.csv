@@ -1,0 +1,15 @@
+Parameter,Value
+Update epoch duration delta,1 s
+Maximum traffic-participant candidates M,10
+Maximum helper slots N_max,3
+System bandwidth,20 MHz
+Transmit power P_tx,0.2 W
+Path-loss exponent alpha,2.4
+Ego/edge CPU availability,35--55%
+Helper CPU capacity,2--9 GHz
+Initial edge backlog,0.09--0.405 s
+Refresh payload,0.8--8.0 MB
+Refresh compute load,0.4--3.5 x 10^9 cycles
+Relevance weights (w_d,w_TTC,w_o,w_sigma),"(0.25,0.40,0.15,0.20)"
+PPO discount factor gamma,0.99
+PPO learning rate,3 x 10^-4
